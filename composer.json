@@ -1,0 +1,28 @@
+{
+    "name": "litesrv/odbc",
+    "description": "ODBC Connector for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liujing",
+            "email": "liujing@addnewer.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "LiteSrv\\Odbc": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LiteSrv\\Odbc\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
